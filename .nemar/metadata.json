@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "FRESH Audio Dataset",
+  "description": "FRESH Audio Dataset is a functional near-infrared spectroscopy (fNIRS) dataset collected during audio processing tasks. The dataset contains raw fNIRS measurements organized according to the Brain Imaging Data Structure (BIDS) standard. This dataset supports research into auditory neuroscience and the neural correlates of sound processing. NOTE: Dataset status should be verified as complete and finalized before DOI minting.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,47 +10,6 @@
     "Maureen Shader": {},
     "David McAlpine": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds005964.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on005964",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005964",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.21105/joss.01896",
-      "identifier_type": "DOI",
-      "relation_type": "References"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "nirs"
-  ],
-  "resource_type_specific": "fNIRS Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".DS_Store",
-    ".html",
-    ".ipynb",
-    ".json",
-    ".md",
-    ".py",
-    ".snirf",
-    ".tsv"
-  ],
-  "description": "FRESH Audio Dataset is a functional near-infrared spectroscopy (fNIRS) dataset collected during audio processing tasks. The dataset contains raw fNIRS measurements organized according to the Brain Imaging Data Structure (BIDS) standard. This dataset supports research into auditory neuroscience and the neural correlates of sound processing. NOTE: Dataset status should be verified as complete and finalized before DOI minting.",
   "keywords": [
     {
       "term": "fNIRS"
@@ -79,5 +39,46 @@
       "term": "SNIRF"
     }
   ],
-  "source_hash": "81eb1f10ccaf580a566db814aa0d3711a85aaa28a44920b09f0a8eb1dc192123"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on005964",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005964",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005964.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "fNIRS Dataset",
+  "modalities": [
+    "nirs"
+  ],
+  "sizes": [
+    "68.4 MB (30 files)"
+  ],
+  "formats": [
+    ".DS_Store",
+    ".html",
+    ".ipynb",
+    ".json",
+    ".md",
+    ".py",
+    ".snirf",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "a96d7ebff9274ea1cf32b3350fcd5933d2c9ff7acb15d052af8f6ab5f921fb52"
 }
