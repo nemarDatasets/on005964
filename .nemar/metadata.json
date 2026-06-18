@@ -1,29 +1,83 @@
 {
   "version": "2.0",
-  "dataset_id": "on005964",
-  "source": "openneuro",
-  "source_id": "ds005964",
+  "pipeline_stage": "enriched",
   "title": "FRESH Audio Dataset",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Robert Luke": {},
     "Maureen Shader": {},
     "David McAlpine": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005964.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005964",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005964",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "nirs"
   ],
-  "datatypes": [
-    "nirs"
-  ]
+  "resource_type_specific": "fNIRS Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".DS_Store",
+    ".html",
+    ".ipynb",
+    ".json",
+    ".md",
+    ".py",
+    ".snirf",
+    ".tsv"
+  ],
+  "description": "FRESH Audio Dataset is a functional near-infrared spectroscopy (fNIRS) dataset collected during audio processing tasks. The dataset contains raw fNIRS measurements organized according to the Brain Imaging Data Structure (BIDS) standard. This dataset supports research into auditory neuroscience and the neural correlates of sound processing. NOTE: Dataset status should be verified as complete and finalized before DOI minting.",
+  "keywords": [
+    {
+      "term": "fNIRS"
+    },
+    {
+      "term": "functional near-infrared spectroscopy"
+    },
+    {
+      "term": "auditory processing"
+    },
+    {
+      "term": "audio processing"
+    },
+    {
+      "term": "sound processing"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "brain imaging"
+    },
+    {
+      "term": "SNIRF"
+    }
+  ],
+  "source_hash": "81eb1f10ccaf580a566db814aa0d3711a85aaa28a44920b09f0a8eb1dc192123"
 }
