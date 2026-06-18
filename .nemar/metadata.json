@@ -1,0 +1,29 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005964",
+  "source": "openneuro",
+  "source_id": "ds005964",
+  "title": "FRESH Audio Dataset",
+  "authors": {
+    "Robert Luke": {},
+    "Maureen Shader": {},
+    "David McAlpine": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005964.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "nirs"
+  ],
+  "datatypes": [
+    "nirs"
+  ]
+}
