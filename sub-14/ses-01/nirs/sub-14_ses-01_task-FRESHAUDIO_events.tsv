@@ -1,4 +1,4 @@
-﻿onset	duration	trial_type	value	sample
+onset	duration	trial_type	value	sample
 29.184	5.25	Noise	2	152
 48.384	5.25	Speech	3	252
 68.736	5.25	Control	1	358

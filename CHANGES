@@ -1,3 +1,8 @@
+1.0.1 2026-11-18
+  - participants.tsv and 51 TSV files (17 channels.tsv, 17 events.tsv, 17 optodes.tsv): UTF-8 byte-order mark removed; values unchanged
+  - 17 *_nirs.json: ManufacturersModelName NIRScout added (doi:10.1038/s42003-025-08412-1, Methods, fNIRS Datasets, Dataset I)
+  - dataset_description.json: BIDSVersion 1.7.0 -> 1.8.0 (the nirs datatype exists in BIDS from version 1.8.0); EthicsApprovals and ReferencesAndLinks added (doi:10.1038/s42003-025-08412-1, Methods, Dataset I)
+  - dataset_description.json: Version 1.0.0 -> 1.0.1
 1.0.0 2025-03-06
   - initial version creation
 4 2023-01-12

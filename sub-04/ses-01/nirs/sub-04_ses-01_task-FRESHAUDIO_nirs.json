@@ -14,5 +14,6 @@
     "TriggerChannelCount": 0,
     "NIRSChannelCount": 66,
     "NIRSSourceOptodeCount": 12,
-    "NIRSDetectorOptodeCount": 20
+    "NIRSDetectorOptodeCount": 20,
+    "ManufacturersModelName": "NIRScout"
 }
